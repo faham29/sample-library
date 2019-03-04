@@ -1,0 +1,130 @@
+
+/*--------------------------- 
+Add Plugin Front-End CSS here 
+---------------------------*/
+.samplib-two-cols, .samplib-one-col {
+	float: left;
+	width: 100%;
+	position: relative;
+	clear: both;
+}
+.samplib-one-half-left {
+	float: left;
+	width: 50%;
+	position: relative;
+	padding: 10px;
+}
+.samplib-one-half-right {
+	float: right;
+	width: 50%;
+	position: relative;
+	padding: 10px;
+}
+.samplib-two-cols .samplib-one-half-left label, .samplib-two-cols .samplib-one-half-right label, .samplib-one-col .samplib-one-half-left label {
+	padding: 5px;
+	min-width: 40%;
+	float: left;
+}
+.samplib-two-cols .samplib-one-half-left .samplib-input, .samplib-two-cols .samplib-one-half-right .samplib-input {
+	padding: 5px;
+	min-width: 60%;
+	float: left;
+}
+.samplib-two-cols .samplib-one-half-left p.samplib-input {
+	margin: 0 auto;
+}
+.samplib-clearfix {
+	float: left;
+	clear: both;
+	width: 100%;
+	margin: 10px auto;
+}
+.samplib-one-col .samplib-one-center {
+	text-align: center;
+}
+#samplib-submit {
+	text-decoration: none;
+	color: #333;
+	padding: 10px 30px;
+	border: 1px solid #333;
+}
+.samplib-responsive-table {
+    overflow-x: auto;
+    float: left;
+    max-width: 100%;
+}
+.samplib-responsive-table table {
+    min-width: 900px;
+}
+.samplib-pagination .page-numbers {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none !important;
+  transition: background-color .3s;
+}
+.samplib-pagination span.current {
+  background-color: dodgerblue;
+  color: white;
+}
+.samplib-pagination .page-numbers:hover:not(.current) {background-color: #ddd;}
+/*--------------------------- 
+Responsive CSS here 
+*
+*   Remember these queries are a good start
+*   but media queries go much deeper than this.
+*
+---------------------------*/
+/*
+Medium/Large Screens 
+*/
+@media only screen and (max-width: 1430px) {
+    
+}
+/*
+Medium Screens 
+*/
+@media only screen and (max-width: 1280px) {
+    
+}
+/*
+Large Tablet Screens 
+*/
+@media only screen and (max-width: 980px) {
+    
+}
+/*
+Medium Tablet Screens 
+*/
+@media only screen and (max-width: 768px) {
+	.samplib-one-half-left {
+		width: 100%;
+	}
+	.samplib-one-half-right {
+		width: 100%;
+	}
+}
+/*
+Small Tablet/Largest Phone Screens 
+*/
+@media only screen and (max-width: 600px) {
+    
+}
+/*
+Large Phone Screens 
+*/
+@media only screen and (max-width: 420px) {
+    
+}
+/*
+Medium Phone Screens 
+*/
+@media only screen and (max-width: 380px) {
+    
+}
+/*
+Small Phone / Apple Watch Screens 
+*/
+@media only screen and (max-width: 320px) {
+    
+}
